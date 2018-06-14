@@ -9,7 +9,7 @@ Sandbox for experiments and code samples pertaining to all things Solidity
 - run `npm install` from `setup` folder where `package.json` resides
 - install https://github.com/trufflesuite/ganache (optional)
 - install `geth` Ethereum client by running `brew install ethereum` (can take a while)
-- install the official Ethereum wallet application (Mist) from `https://github.com/ethereum/mist/releases`. Note: this synchronises with the Ethereum blockchain. Only do so if you have the 10s of GB of space
+- install the official Ethereum wallet application (& Mist) from `https://github.com/ethereum/mist/releases`. Note: this synchronises with the Ethereum blockchain. Only do so if you have the 10s of GB of space
 
 
 ## Environment setup verification
