@@ -15,4 +15,7 @@ Sandbox for experiments and code samples pertaining to all things Solidity
 ## Environment setup verification
 - start `ganache-cli` from the command line in the project root by running: `ganache-cli` (should start a local Ethereum node)
 - confirm `web3js` is available from the `node` command line by running in the project root: `node` then `require("solc")` and require("web3") and require("ganache-cli")
+- confirm `ethereumjs-util` is available from the `node` command line by running in the project root: `node` then `require("ethereumjs-util")`
+util = require("ethereumjs-util")
+
 - run `geth version`
