@@ -10,6 +10,7 @@ Sandbox for experiments and code samples pertaining to all things Solidity
 - install https://github.com/trufflesuite/ganache (optional)
 - install `geth` Ethereum client by running `brew install ethereum` (can take a while)
 - install the official Ethereum wallet application (& Mist) from `https://github.com/ethereum/mist/releases`. Note: this synchronises with the Ethereum blockchain. Only do so if you have the 10s of GB of space
+- run `npm install -g remixd` to allow Remix use source code from hard drive then run the following to choose a shared folder `remixd -s /Users/bgaughran/IdeaProjects/solidity_sandbox/contracts` then click the 'link' icon in remix to load the files
 
 
 ## Environment setup verification
