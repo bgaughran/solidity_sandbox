@@ -2,7 +2,8 @@
 Sandbox for experiments and code samples pertaining to all things Solidity
 
 ## Environment setup
-- install node
+- install nodeJS
+- install npm
 - update npm to the latest using `sudo npm i -g npm`
 - install homebrew
 - Note: Latest versions of these `nodejs` dependencies in `setup/package.json` taken from github at the time of writing. Later versions may be available when running this
