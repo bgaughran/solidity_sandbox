@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "ganache-cli": "6.1.3",
-    "web3": "1.0.0-beta.34",
-    "solc": "0.4.24",
+    "ganache-cli": "6.1.8",
+    "web3": "1.0.0-beta.36",
+    "solc": "0.4.25",
     "ethereumjs-util": "5.2.0"
   }
 }
