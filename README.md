@@ -13,7 +13,12 @@ Sandbox for experiments and code samples pertaining to all things Solidity
 - OPTIONAL: Mist Ethereum Wallet (install from from `https://github.com/ethereum/mist/releases) - user friendly UI to interact with Ethereum (Mist = wallet + built-in own browser, and Etherum Wallet = exactly the same wallet, but the built-in browser is disabled.) WARNING: you may not wanna run a full node on laptop (takes a lot of hared drive space and days to sync from Internet the first time)
 - install metamask in your browser
 
-
+--*********update 25/11/2018*********   
+- install VirtualBox & Vagrant 
+- install Blockgeeks development environment: https://app.vagrantup.com/blockgeeks/boxes/env
+    - run `vagrant init blockgeeks/env` in the root of your development environment folder
+    - update 'VagrantFile' to include the following: 
+    - run `vagrant up` to provision the Vagrant environment
 
 ??????CHECK ALL BELOW????????
 - Note: Latest versions of these `nodejs` dependencies in `setup/package.json` taken from github at the time of writing. Later versions may be available when running this
