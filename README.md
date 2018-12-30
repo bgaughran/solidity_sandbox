@@ -14,11 +14,15 @@ Sandbox for experiments and code samples pertaining to all things Solidity
 - install metamask in your browser
 
 --*********update 25/11/2018*********   
-- install VirtualBox & Vagrant 
+- install VirtualBox & Vagrant
 - install Blockgeeks development environment: https://app.vagrantup.com/blockgeeks/boxes/env
     - run `vagrant init blockgeeks/env` in the root of your development environment folder
-    - update 'VagrantFile' to include the following: 
+    - update 'VagrantFile' to include the following:
+      `config.vm.box = "blockgeeks/env"`
+      `config.vm.box_version = "0.0.1"`
     - run `vagrant up` to provision the Vagrant environment
+    - run `vagrant ssh` to connect to the vagrant environment
+    - In vagrant shell `cd /vagrant` to go to the folder that launched the vagrant instance to provide access to all the files in that folder  
 
 ??????CHECK ALL BELOW????????
 - Note: Latest versions of these `nodejs` dependencies in `setup/package.json` taken from github at the time of writing. Later versions may be available when running this
