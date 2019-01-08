@@ -2,11 +2,12 @@ pragma solidity 0.4.25;
 
 contract SimpleCounter {
 
-    //state variable
-    int counter;
+    int256 counter; //state variable
+    address owner;
 
     constructor() public {
         counter = 0;
+        owner = msg.sender;
     }
 
     //explicitly declaring this getter - though this will be generated automatically
@@ -20,5 +21,11 @@ contract SimpleCounter {
 
     function decrement() public {
         counter -= 1;
+    }
+
+    //function only callable by contract owner
+    function reset() public {
+        require(msg.sender == owner);
+        counter == 0;
     }
 }

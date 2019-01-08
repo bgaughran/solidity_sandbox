@@ -12,6 +12,10 @@ Sandbox for experiments and code samples pertaining to all things Solidity
     - WARNING: you may not wanna run a full node on laptop (takes a lot of hared drive space and days to sync from Internet the first time)
 - OPTIONAL: Mist Ethereum Wallet (install from from `https://github.com/ethereum/mist/releases) - user friendly UI to interact with Ethereum (Mist = wallet + built-in own browser, and Etherum Wallet = exactly the same wallet, but the built-in browser is disabled.) WARNING: you may not wanna run a full node on laptop (takes a lot of hared drive space and days to sync from Internet the first time)
 - install metamask in your browser
+- install Octotree (usefull for easily navigating www.github.com on LHS of browser)
+- copy `https://github.com/ethereum/web3.js/blob/develop/dist/web3.min.js` to a local directory to use Web3
+    - always choose the latest beta (not the 'develop' branch. Instead pick the tag with the highest release version)
+- install lite-server (very simple web server) by running `npm install -g lite-server`
 
 --*********update 25/11/2018*********   
 - install VirtualBox & Vagrant
@@ -20,6 +24,7 @@ Sandbox for experiments and code samples pertaining to all things Solidity
     - update 'VagrantFile' to include the following:
       `config.vm.box = "blockgeeks/env"`
       `config.vm.box_version = "0.0.1"`
+      `config.vm.synced_folder ".", disabled: false`
     - run `vagrant up` to provision the Vagrant environment
     - run `vagrant ssh` to connect to the vagrant environment
     - In vagrant shell `cd /vagrant` to go to the folder that launched the vagrant instance to provide access to all the files in that folder  
