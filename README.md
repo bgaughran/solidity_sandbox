@@ -15,7 +15,9 @@ Sandbox for experiments and code samples pertaining to all things Solidity
 - install Octotree (usefull for easily navigating www.github.com on LHS of browser)
 - copy `https://github.com/ethereum/web3.js/blob/develop/dist/web3.min.js` to a local directory to use Web3
     - always choose the latest beta (not the 'develop' branch. Instead pick the tag with the highest release version)
-- install lite-server (very simple web server) by running `npm install -g lite-server`
+- install lite-server (very simple web server) by running `sudo npm install -g lite-server`
+    - run `lite-server` to get it running
+- install truffle `sudo npm install -g truffle`
 
 --*********update 25/11/2018*********   
 - install VirtualBox & Vagrant
