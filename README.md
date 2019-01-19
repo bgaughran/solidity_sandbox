@@ -6,6 +6,7 @@ Sandbox for experiments and code samples pertaining to all things Solidity
 - install npm (does this come with node?)
 - update npm to the latest using `sudo npm i -g npm`
 - install homebrew
+- install truffle `sudo npm install -g truffle`
 - install Ganache (https://truffleframework.com/ganache)
     - alternatively install Ganache CLI `npm install -g ganache-cli`
 - OPTIONAL: install `geth` Ethereum client by running `brew install ethereum` (can take a while)
@@ -17,7 +18,6 @@ Sandbox for experiments and code samples pertaining to all things Solidity
     - always choose the latest beta (not the 'develop' branch. Instead pick the tag with the highest release version)
 - install lite-server (very simple web server) by running `sudo npm install -g lite-server`
     - run `lite-server` to get it running
-- install truffle `sudo npm install -g truffle`
 
 --*********update 25/11/2018*********   
 - install VirtualBox & Vagrant
@@ -44,3 +44,13 @@ Sandbox for experiments and code samples pertaining to all things Solidity
 util = require("ethereumjs-util")
 
 - run `geth version`
+
+## To build our election DaPP
+`mkdir election`
+`cd election`
+`truffle init` (Truffle command to initialize empty Truffle project in current directory)
+`truffle version` (prints out currently installed Truffle version)
+`truffle compile` (Truffle command to compile all Solidity smart contracts located in contracts folder)
+`truffle compile --all` (Truffle command to force compilation of all Solidity smart contracts)
+`truffle migrate` (Truffle command to run all migration scripts located in migrations folder)
+`truffle migrate --reset` (Truffle command to force running all migrations from beginning)
