@@ -18,6 +18,7 @@ Sandbox for experiments and code samples pertaining to all things Solidity
     - always choose the latest beta (not the 'develop' branch. Instead pick the tag with the highest release version)
 - install lite-server (very simple web server) by running `sudo npm install -g lite-server`
     - run `lite-server` to get it running
+    - configure lite-server using bs-config.json to include path to web app source and contract Solidity build files
 
 --*********update 25/11/2018*********   
 - install VirtualBox & Vagrant
