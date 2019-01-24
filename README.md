@@ -20,6 +20,8 @@ Sandbox for experiments and code samples pertaining to all things Solidity
     - run `lite-server` to get it running
     - configure lite-server using bs-config.json to include path to web app source and contract Solidity build files
 
+- to use Infura with Truffle, install the following
+    `npm install truffle-hdwallet-provider`
 --*********update 25/11/2018*********   
 - install VirtualBox & Vagrant
 - install Blockgeeks development environment: https://app.vagrantup.com/blockgeeks/boxes/env
