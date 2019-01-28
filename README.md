@@ -22,6 +22,7 @@ Sandbox for experiments and code samples pertaining to all things Solidity
 
 - to use Infura with Truffle, install the following
     `npm install truffle-hdwallet-provider`
+    
 --*********update 25/11/2018*********   
 - install VirtualBox & Vagrant
 - install Blockgeeks development environment: https://app.vagrantup.com/blockgeeks/boxes/env
